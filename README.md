@@ -24,7 +24,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  flutter_bluetooth_terminal: ^1.0.0
+  spp_connection_plugin: ^1.0.0
 ```
 
 ## Android Setup
@@ -51,7 +51,7 @@ Add the following permissions to your `android/app/src/main/AndroidManifest.xml`
 ### Basic Implementation
 
 ```dart
-import 'package:flutter_bluetooth_terminal/flutter_bluetooth_terminal.dart';
+import 'package:spp_connection_plugin/spp_connection_plugin.dart';
 
 class BluetoothExample extends StatefulWidget {
   @override
@@ -59,7 +59,7 @@ class BluetoothExample extends StatefulWidget {
 }
 
 class _BluetoothExampleState extends State<BluetoothExample> {
-  final FlutterBluetoothTerminal _bluetooth = FlutterBluetoothTerminal.instance;
+  final SppConnectionPlugin _bluetooth = SppConnectionPlugin();
   
   @override
   void initState() {
@@ -134,7 +134,7 @@ await _bluetooth.startBackgroundService();
 
 ## API Reference
 
-### Main Class: FlutterBluetoothTerminal
+### Main Class: SppConnectionPlugin
 
 #### Device Management
 - `Future<bool> isBluetoothSupported()`
