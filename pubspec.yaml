@@ -4,7 +4,14 @@ description: >
   providing full terminal functionality including real-time data streaming, hex mode,
   newline control, background service support, and permission handling for Android 12+.
 version: 0.0.1
-homepage:
+homepage: https://github.com/zarifergashev/spp_connection_plugin
+repository: https://github.com/zarifergashev/spp_connection_plugin
+issue_tracker: https://github.com/zarifergashev/spp_connection_plugin/issues
+topics:
+  - bluetooth
+  - serial
+  - terminal
+  - communication
 
 environment:
   sdk: ^3.7.2
