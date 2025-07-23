@@ -5,15 +5,17 @@
 Pod::Spec.new do |s|
   s.name             = 'spp_connection_plugin'
   s.version          = '0.0.1'
-  s.summary          = 'A new Flutter project.'
+  s.summary          = 'Flutter plugin for Bluetooth Serial Port Profile (SPP) communication'
   s.description      = <<-DESC
-A new Flutter project.
+A comprehensive Flutter plugin for Bluetooth communication with terminal functionality.
+Supports both Core Bluetooth (BLE) and External Accessory (MFi) frameworks.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/zarifergashev/spp_connection_plugin'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Green White Solutions LLC' => 'zarifergashev@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
+  s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'
 
@@ -26,4 +28,5 @@ A new Flutter project.
   # plugin's privacy impact, and then uncomment this line. For more information,
   # see https://developer.apple.com/documentation/bundleresources/privacy_manifest_files
   # s.resource_bundles = {'spp_connection_plugin_privacy' => ['Resources/PrivacyInfo.xcprivacy']}
+  s.frameworks = 'CoreBluetooth', 'ExternalAccessory'
 end
