@@ -24,7 +24,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  spp_connection_plugin: ^1.0.0
+  spp_connection_plugin: ^0.0.6
 ```
 
 ## Android Setup

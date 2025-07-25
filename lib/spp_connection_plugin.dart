@@ -5,6 +5,13 @@ import 'package:spp_connection_plugin/src/bluetooth_device_model.dart';
 
 import 'spp_connection_plugin_platform_interface.dart';
 
+export 'package:spp_connection_plugin/src/bluetooth_connection_state.dart';
+export 'package:spp_connection_plugin/src/bluetooth_device_model.dart';
+export 'package:spp_connection_plugin/src/bluetooth_exception.dart';
+export 'package:spp_connection_plugin/src/bluetooth_permission_handler.dart';
+export 'package:spp_connection_plugin/src/constants.dart';
+export 'package:spp_connection_plugin/src/text_utils.dart';
+
 class SppConnectionPlugin {
   BluetoothConnectionState get connectionState =>
       SppConnectionPluginPlatform.instance.connectionState;
