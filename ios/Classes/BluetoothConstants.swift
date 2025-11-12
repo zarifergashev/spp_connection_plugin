@@ -1,3 +1,4 @@
+/*
 import Foundation
 import CoreBluetooth
 
@@ -31,3 +32,4 @@ struct BluetoothConstants {
         "com.yourcompany.protocol"
     ]
 }
+ */

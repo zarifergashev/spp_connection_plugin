@@ -3,7 +3,7 @@ description: >
   A comprehensive Flutter plugin for Bluetooth Serial Port Profile (SPP) communication,
   providing full terminal functionality including real-time data streaming, hex mode,
   newline control, background service support, and permission handling for Android 12+.
-version: 0.0.6
+version: 0.0.9
 homepage: https://github.com/zarifergashev/spp_connection_plugin
 repository: https://github.com/zarifergashev/spp_connection_plugin
 issue_tracker: https://github.com/zarifergashev/spp_connection_plugin/issues
@@ -14,7 +14,7 @@ topics:
   - communication
 
 environment:
-  sdk: ^3.7.2
+  sdk: '>=3.4.3 <4.0.0'
   flutter: '>=3.3.0'
 
 dependencies:

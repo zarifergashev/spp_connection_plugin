@@ -1,3 +1,4 @@
+/*
 import Foundation
 
 enum BluetoothError: Error {
@@ -33,4 +34,4 @@ enum BluetoothError: Error {
             return message
         }
     }
-}
+} */
